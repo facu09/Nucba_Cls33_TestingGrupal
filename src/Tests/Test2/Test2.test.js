@@ -46,6 +46,10 @@ describe('Test2', () => {
         });
 
         expect( result.current.returnTheYoungest() ).toStrictEqual(users[1]);
+        // expect( result.current.returnTheYoungest() ).toStrictEqual({
+        //     name: 'Julieta',
+        //     age: 28
+        // });
     });
 
     test('Must return array of ages', () => {
@@ -76,7 +80,7 @@ describe('Test2', () => {
                 age: 28
             },
             {
-                nam: 'Paula',
+                name: 'Paula',
                 age: 33
             },
             {
