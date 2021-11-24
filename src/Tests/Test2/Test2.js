@@ -7,7 +7,6 @@ const Test2 = () => {
     const handleSetUsers = (allUsers) => {
         // Must set users 
         setUsers(allUsers);
-
     }
 
     const returnTheYoungest = () => {
